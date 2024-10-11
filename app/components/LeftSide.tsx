@@ -20,7 +20,7 @@ export const LeftSide = () => {
   });
   const [isVisible, setIsVisible] = useState<Boolean>(false);
   const [isVisible2, setIsVisible2] = useState<Boolean>(false);
-  const inputStyle = "px-2 py-1 block border-2 w-full rounded-md";
+  const inputStyle = "px-2 py-1 block border-2 w-full rounded-md bg-white";
   return (
     <div className=" flex justify-center items-center min-h-screen mr-3 lg:mr-0 w-2/4 md:w-2/5 max-[500px]:w-full">
       <div>
