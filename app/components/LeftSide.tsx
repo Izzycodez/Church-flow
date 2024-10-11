@@ -92,7 +92,7 @@ export const LeftSide = () => {
             </div>
           </div>
           <div>
-            <input type="checkbox" id="terms" />
+            <input type="checkbox" id="terms" className="bg-white" />
             <label htmlFor="terms" className="ml-2">
               I agree to the <b> Terms</b> & <b> Conditions</b>
             </label>

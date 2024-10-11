@@ -16,7 +16,7 @@ const MembershipForm = () => {
               placeholder="Enter your phone number"
               id="phoneNumber"
               required
-              className="border w-[95%] rounded px-2 py-1 block border-gray-400 "
+              className="border bg-white w-[95%] rounded px-2 py-1 block border-gray-400 "
             />
           </div>
           <div className="mt-1 ">
@@ -28,7 +28,7 @@ const MembershipForm = () => {
               placeholder="Enter your email"
               id="email"
               required
-              className="border w-[95%] rounded px-2 py-1 block border-gray-400 "
+              className="border bg-white w-[95%] rounded px-2 py-1 block border-gray-400 "
             />
           </div>
           <div className="mt-1 ">
@@ -40,7 +40,7 @@ const MembershipForm = () => {
               placeholder="What's your occupation?"
               id="occupation"
               required
-              className="border w-[95%] rounded px-2 py-1 block border-gray-400 "
+              className="border bg-white w-[95%] rounded px-2 py-1 block border-gray-400 "
             />
           </div>
           <div className="mt-1 ">
@@ -52,7 +52,7 @@ const MembershipForm = () => {
               placeholder="What's your educational background?"
               id="educationalBackground"
               required
-              className="border w-[95%] rounded px-2 py-1 block border-gray-400 "
+              className="border bg-white w-[95%] rounded px-2 py-1 block border-gray-400 "
             />
           </div>
         </div>
@@ -65,7 +65,7 @@ const MembershipForm = () => {
             placeholder="Street, City,State, Zip code and so on"
             id="address"
             required
-            className="border w-[98%] rounded px-2 py-1 block border-gray-400 "
+            className="border bg-white w-[98%] rounded px-2 py-1 block border-gray-400 "
           />
         </div>
       </form>

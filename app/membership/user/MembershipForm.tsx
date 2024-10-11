@@ -16,7 +16,7 @@ const MembershipForm = () => {
               placeholder="Enter your first name"
               id="firstName"
               required
-              className="border w-[95%] rounded px-2 py-1 block border-gray-400 "
+              className="border w-[95%] bg-white rounded px-2 py-1 block border-gray-400 "
             />
           </div>
           <div className="mt-1 ">
@@ -28,7 +28,7 @@ const MembershipForm = () => {
               placeholder="Enter your last name"
               id="lastName"
               required
-              className="border w-[95%] rounded px-2 py-1 block border-gray-400 "
+              className="bg-white border w-[95%] rounded px-2 py-1 block border-gray-400 "
             />
           </div>
           <div className="mt-1 font-semibold">
@@ -36,7 +36,7 @@ const MembershipForm = () => {
             <input
               type="radio"
               name="gender"
-              className="appearance-none w-[14px] h-[14px] border-2 border-blue-500 rounded-full checked:bg-blue-500 checked:border-black"
+              className="appearance-none w-[14px] h-[14px] border-2  border-blue-500 rounded-full checked:bg-blue-500 checked:border-black"
             />
             <label htmlFor="gender" className=" ml-2 mr-4">
               Male
@@ -59,7 +59,7 @@ const MembershipForm = () => {
               name="dateOfBirth"
               id="dateOfBirth"
               required
-              className="border w-[95%] rounded px-2 py-1 block border-gray-400 "
+              className="border w-[95%] bg-white rounded px-2 py-1 block border-gray-400 "
             />
           </div>
           <div className="mt-1">
@@ -70,7 +70,7 @@ const MembershipForm = () => {
               name="Marital status"
               id="Marital status"
               required
-              className="border w-[95%] rounded px-2 py-1 block border-gray-400 "
+              className="border w-[95%] bg-white rounded px-2 py-1 block border-gray-400 "
             >
               <option value="" className="opacity-30">
                 What&apos;s your marital status?
@@ -82,7 +82,7 @@ const MembershipForm = () => {
             </select>
           </div>
           <div className="mt-1">
-            <label className="font-semibold" htmlFor="dateOfmarriage">
+            <label className="font-semibold bg-white" htmlFor="dateOfmarriage">
               Date of marriage
             </label>
             <input
@@ -90,7 +90,7 @@ const MembershipForm = () => {
               name="dateOfmarriage"
               required
               id="dateOfmarriage"
-              className="border w-[95%] rounded px-2 py-1 block border-gray-400 "
+              className="border w-[95%] bg-white rounded px-2 py-1 block border-gray-400 "
             />
           </div>
         </div>

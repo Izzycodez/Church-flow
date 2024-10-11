@@ -15,7 +15,7 @@ const MembershipForm = () => {
               placeholder="Your spouse's first name"
               id="firstName"
               required
-              className="border w-[95%] rounded px-2 py-1 block border-gray-400 "
+              className="border w-[95%] bg-white rounded px-2 py-1 block border-gray-400 "
             />
           </div>
           <div className="mt-1 ">
@@ -27,7 +27,7 @@ const MembershipForm = () => {
               placeholder="Your spouse's last name"
               id="lastName"
               required
-              className="border w-[95%] rounded px-2 py-1 block border-gray-400 "
+              className="border bg-white w-[95%] rounded px-2 py-1 block border-gray-400 "
             />
           </div>
           <div className="mt-1 ">
@@ -39,7 +39,7 @@ const MembershipForm = () => {
               placeholder="Enter your child's first name"
               id="lastName"
               required
-              className="border w-[95%] rounded px-2 py-1 block border-gray-400 "
+              className="border bg-white w-[95%] rounded px-2 py-1 block border-gray-400 "
             />
           </div>
           <div className="mt-1 ">
@@ -51,7 +51,7 @@ const MembershipForm = () => {
               placeholder="Enter your child's last name"
               id="lastName"
               required
-              className="border w-[95%] rounded px-2 py-1 block border-gray-400 "
+              className="border bg-white w-[95%] rounded px-2 py-1 block border-gray-400 "
             />
           </div>
         </div>
