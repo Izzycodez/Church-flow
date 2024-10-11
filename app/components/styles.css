@@ -1,0 +1,37 @@
+.input-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.input-style {
+  padding-right: 30px;
+}
+
+.toggle-visibility {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+  color: grey;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.or {
+  margin: 0;
+  font-weight: bold;
+  color: #333;
+}
