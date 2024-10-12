@@ -22,7 +22,7 @@ const Header = () => {
   const isActive = pathName === "/membership/user";
   return (
     <div className="flex border items-center justify-between rounded p-1 ">
-      <div className="flex items-center w-[35%] border-r-2">
+      <div className="flex items-center w-[35%] max-[500px]:w-[40%] border-r-2">
         <div className="bg-blue-800 rounded-3xl mx-3">
           <BiUserPin size={25} color="white" className="p-1" />
         </div>
@@ -33,7 +33,7 @@ const Header = () => {
           </p>
         </div>
       </div>
-      <div className="flex justify-between w-[65%]">
+      <div className="flex justify-between w-[65%] max-[500px]:w-[60%]">
         <Link
           href={"/membership/contact"}
           className="border-r-2 opacity-40 w-[25%] flex justify-center"

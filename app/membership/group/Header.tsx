@@ -10,9 +10,9 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <div className="flex border items-center justify-between rounded p-1 ">
-      <div className="flex justify-between w-full">
-        <div className="border-r-2 w-[16%] items-center flex justify-center">
+    <div className="flex border items-center justify-between rounded p-1 w-[97%]">
+      <div className="flex justify-between w-full ">
+        <div className="border-r-2 w-[16%] max-[500px]:w-[15%] items-center flex justify-center">
           <Link
             href={"/membership/user"}
             className="bg-blue-100 p-1 rounded-3xl"
@@ -20,7 +20,7 @@ const Header = () => {
             <BiUserPin size={18} color="blue" />
           </Link>
         </div>
-        <div className="border-r-2 w-[16%] items-center flex justify-center">
+        <div className="border-r-2 w-[16%] max-[500px]:w-[15%] items-center flex justify-center">
           <Link
             href={"/membership/contact"}
             className="bg-blue-100 p-1 rounded-3xl"
@@ -29,13 +29,13 @@ const Header = () => {
           </Link>
         </div>
 
-        <div className="flex items-center w-[35%] border-r-2">
+        <div className="flex items-center w-[35%] max-[500px]:w-[40%] border-r-2">
           <div className="bg-blue-800 rounded-3xl mx-3">
             <TbUsersGroup size={25} color="white" className="p-1" />
           </div>
           <div className="h-[27px]">
             <p className="text-[12px] h-[12px] my-0">Step3/5</p>
-            <p className="text-blue-800 text-[13px] h-[13px] my-0 font-medium">
+            <p className="text-blue-800 text-[13px] h-[13px] my-0 font-medium text-nowrap">
               Profile details
             </p>
           </div>
@@ -43,13 +43,13 @@ const Header = () => {
 
         <Link
           href={"/membership/bright"}
-          className="border-r-2 opacity-40 w-[16%] items-center flex justify-center"
+          className="border-r-2 opacity-40 w-[16%] max-[500px]:w-[15%] items-center flex justify-center"
         >
           <BsBrightnessAltHigh size={16} />
         </Link>
         <Link
           href={"/membership/contact"}
-          className="flex justify-center opacity-40 w-[16%] items-center "
+          className="flex justify-center opacity-40 w-[16%] max-[500px]:w-[15%] items-center "
         >
           <PiCrossThin size={16} />
         </Link>
